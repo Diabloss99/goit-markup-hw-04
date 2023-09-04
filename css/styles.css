@@ -335,14 +335,45 @@ gap: 24px;
     background-color: var(--logo-and-link-color);
     padding: 100px 0;
 }
+.footer-and-icons {
+    display: flex;
+    align-items: center;
+}
 .footer-paragraph
 {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--footer-paragraph-and-logo);
+    width:264px;
 }
 .white
 {
     color: #f4f4fd;
+}
+.icons {
+    margin: 120px 0;
+}
+.title {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    margin-left: 120px;
+    margin-bottom: 16px;
+}
+.svg-footer {
+    border-radius: 50%;
+    background-color: #4D5AE5;
+    width: 40px;
+    height: 40px;
+    padding: 8px 8px 8px 8px;}
+.social-media-footer {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-left: 120px;
 }
 
